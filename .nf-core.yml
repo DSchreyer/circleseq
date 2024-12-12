@@ -1,11 +1,9 @@
-bump_version: null
 lint:
   files_exist:
     - assets/multiqc_config.yml
   files_unchanged:
     - assets/email_template.html
-nf_core_version: 3.0.2
-org_path: null
+nf_core_version: 3.1.0
 repository_type: pipeline
 template:
   author: Daniel Schreyer
@@ -15,7 +13,6 @@ template:
   name: circdna
   org: nf-core
   outdir: .
-  skip_features: null
   version: "1.1"
 update:
   nf-core:
